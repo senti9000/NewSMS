@@ -1,5 +1,5 @@
 
-<a href="{% url 'student_dashboard' %}" >Home</a>
+<a href="SMS(logon).html" >Home</a>
                             #NewSMS
                         
                         
