@@ -1,5 +1,5 @@
 
-<a href="SMS(logon).html" >Home</a>
+<a href="SMS.html" >Home</a>
                             #NewSMS
                         
                         
