@@ -287,12 +287,10 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-4 mb-3">
-                                    {{ form.good_moral.label_tag }}
-                                    {{ form.good_moral }}
-                                    {% if student.good_moral %}
-                                    <small class="form-text text-muted">Current file: {{ student.good_moral.name|slice:"20:" }}</small>
+                                    
+                                    <small class="form-text text-muted">Current file:</small>
                                     <div class="mt-2">
-                                        <img src="{{ student.good_moral.url }}" alt="Good Moral" style="max-width: 150px; max-height: 150px; object-fit: cover; border-radius: 5px;">
+                                        <img src="" alt="Good Moral" style="max-width: 150px; max-height: 150px; object-fit: cover; border-radius: 5px;">
                                     </div>
                                     <div class="mt-1">
                                         <a href="" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete the Good Moral document?');">Delete Picture</a>
