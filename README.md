@@ -1,4 +1,5 @@
-<a href="{% url 'student_dashboard' %}" >#NewSMS</a>
-                            
+
+<a href="{% url 'student_dashboard' %}" >Home</a>
+                            #NewSMS
                         
                         
