@@ -659,31 +659,31 @@ button:hover {
 }
 
 .bg-image-it {
-    background-image: url('TIT.jpeg');
+    background-image: url('static/CS/TIT.jpeg');
     width: 100vw;
     height: 80vh;
 }
 
 .bg-image-ba {
-    background-image: url('BAB.jpeg');
+    background-image: url('static/CS/BAB.jpeg');
     width: 100vw;
     height: 80vh;
 }
 
 .bg-image-hm {
-    background-image: url('MHM.jpeg');
+    background-image: url('static/CS/MHM.jpeg');
     width: 100vw;
     height: 80vh;
 }
 
 .bg-image-ca {
-    background-image: url('CAC.jpeg');
+    background-image: url('static/CS/CAC.jpeg');
     width: 100vw;
     height: 80vh;
 }
 
 .bg-image-ed {
-    background-image: url('DED.jpeg');
+    background-image: url('static/CS/DED.jpeg');
     width: 100vw;
     height: 80vh;
 }
@@ -694,7 +694,7 @@ button:hover {
 }
 
 .bg-image-SMSIT {
-    background-image: url('SMSCS.jpg');
+    background-image: url('static/CS/SMSCS.jpg');
     height: 550px;
      width: 90vw;
     border: 2px solid black;
@@ -709,7 +709,7 @@ button:hover {
 }
 
 .bg-image-SMSBA {
-    background-image: url('SM.jpg');
+    background-image: url('static/CS/SM.jpg');
     height: 550px;
      width: 90vw;
     border: 2px solid black;
@@ -724,7 +724,7 @@ button:hover {
 }
 
 .bg-image-SMSHM {
-    background-image: url('SMSBA.jpg');
+    background-image: url('static/CS/SMSBA.jpg');
     height: 550px;
      width: 90vw;
     border: 2px solid black;
@@ -739,7 +739,7 @@ button:hover {
 }
 
 .bg-image-SMSA {
-    background-image: url('SMSA.jpg');
+    background-image: url('static/CS/SMSA.jpg');
     height: 550px;
      width: 90vw;
     border: 2px solid black;
@@ -754,7 +754,7 @@ button:hover {
 }
 
 .bg-image-SMSED {
-    background-image: url('SMSDD.jpg');
+    background-image: url('static/CS/SMSDD.jpg');
     height: 550px;
      width: 90vw;
     border: 2px solid black;
