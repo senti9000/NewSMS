@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>SLAC Login</title>
-    {% load static %}
+    
     <link rel="icon" type="image/jpeg" href="{% static 'CS/BGBG2.jpeg' %}">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="{% static 'CS/Login.css' %}">
@@ -18,18 +18,13 @@
                 <div class="col-md-6 col-lg-4"> <!-- Responsive column -->
                     <div class="card fat">
                         <div class="card-body">
-                            {% if messages %}
-                                {% for message in messages %}
-                                    <div class="alert alert-info">{{ message }}</div>
-                                {% endfor %}
-                            {% endif %}
+                            
+                                    <div class="alert alert-info"></div>
+                                
                             <h4 class="card-title text-center">Login</h4>
-                            {% if user.is_authenticated %}
-                                <!-- Additional content for authenticated users can go here -->
-                            {% endif %}
+                            
                             <form method="POST">
-                                {% csrf_token %}
-                                {{ form.as_p }}
+                                
                                 <div class="form-group">
                                     <label>
                                         <input type="checkbox" id="showPassword"> Show passwords
